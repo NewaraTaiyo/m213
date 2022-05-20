@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour {
+public class PlayerHealth : MonoBehaviour {
     public int currentHealth = 0;
     public int maxHealth = 100;
 
-    public HealthBar healthBar;
+    public PlayerHealthBar healthBar;
 
     void Start(){
         currentHealth = maxHealth;

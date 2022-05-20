@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerHealthbar : MonoBehaviour {
+public class PlayerHealthBar : MonoBehaviour {
     public Slider healthBar;
-    public Health playerHealth;
+    public PlayerHealth playerHealth;
 
     private void Start(){
         playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
